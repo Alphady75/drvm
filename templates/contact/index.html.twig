@@ -1,0 +1,69 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Contactez-nous{% endblock %}
+
+{% block body %}
+
+	<!-- Section -->
+	<section class="banner-section pt-3">
+		<div class="containe">
+			<h1 class="">
+				<span class="louer">Contactez-nous</span>
+			</h1>
+			<p>Bienvenue sur notre page de contact. Si vous avez des questions, des commentaires ou des préoccupations, n'hésitez pas à nous contacter.</p>
+		</div>
+	</section>
+	<!-- End Banner section -->
+
+	<!-- FAQS Section -->
+	<section class="section-pb">
+		<div class="containe right-118">
+			{{ form_start(form, {attr: {class: 'contact-form'}}) }}
+			<div class="row g-3">
+				<div class="col-sm-6">
+					<div class="form-floating">
+						{{ form_widget(form.nom) }}
+						<label for="contact_nom">Nom</label>
+					</div>
+					{{ form_errors(form.nom) }}
+				</div>
+				<div class="col-sm-6">
+					<div class="form-floating">
+						{{ form_widget(form.prenom) }}
+						<label for="contact_prenom">Prénom</label>
+					</div>
+					{{ form_errors(form.prenom) }}
+				</div>
+				<div class="col-sm-6">
+					<div class="form-floating">
+						{{ form_widget(form.email) }}
+						<label for="contact_email">Email</label>
+					</div>
+					{{ form_errors(form.email) }}
+				</div>
+				<div class="col-sm-6">
+					<div class="form-floating">
+						{{ form_widget(form.sujet) }}
+						<label for="contact_sujet">Sujet</label>
+					</div>
+					{{ form_errors(form.sujet) }}
+				</div>
+			</div>
+			<div class="pt-3">
+				<div class="form-floating">
+					{{ form_widget(form.message) }}
+					<label for="contact_message">Ecrivez votre message</label>
+				</div>
+				{{ form_errors(form.message) }}
+			</div>
+
+			<div class="form-group py-4">
+				<button type="submit" class="btn custom-btn">Envoyer votre message</button>
+			</div>
+
+			{{ form_end(form) }}
+
+		</div>
+	</section>
+	<!-- End FAQS Section -->
+{% endblock %}

@@ -1,0 +1,22 @@
+<div style="background: rgb(241, 241, 241);padding:30px;">
+   <div style="padding: 30px;background:white;">
+      <div>
+         <img src="{{ absolute_url(asset('themes/logo/Logo.png')) }}" alt="Logo {{ appName }}" width="90px">
+      </div>
+      <div>
+         <strong>{{ appName}}</strong>
+      </div>
+      <span>Autheur:</span>
+      <div>
+         <strong>
+            {{ user }}
+         </strong>
+      </div>
+      <p>Sujet: {{ sujet }}</p>
+      <div><hr>
+         <span>Message</span>
+         <p>{{ message }}</p>
+      </div>
+      <p>&copy;{{ appName }} {{ 'now'|date('Y') }}</p>
+   </div>
+</div>

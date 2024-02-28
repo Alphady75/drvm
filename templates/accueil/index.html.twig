@@ -1,0 +1,283 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Bienvenu sur
+	{{ appName }}
+{% endblock %}
+
+{% block body %}
+	<!-- Banner section -->
+	<section class="banner-section" id="application">
+		<div class="d-flex align-items-start">
+			<div class="left">
+				<h1 class="">
+					<span class="louer">Louer</span> un véhicule partout, à tout moment</h1>
+				<p>Location courte et longue durée</p>
+				<img src="{{ asset('themes/img/1/1.png') }}" class="img-fluid sm-block" alt="">
+				<div class="buttom-block p-15">
+					<a href="#" class="google-play">
+						<img src="{{ asset('themes/img/google-play.svg') }}" alt="">
+					</a>
+					<a href="#" class="google-play">
+						<img src="{{ asset('themes/img/app-store.svg') }}" alt="">
+					</a>
+				</div>
+			</div>
+			<div class="right sm-none">
+				<img src="{{ asset('themes/img/1/hero.png') }}" class="img-fluid" alt="">
+			</div>
+		</div>
+	</section>
+	<!-- End Banner section -->
+
+	<!-- More 1000 véhicules -->
+	<section class="section-more-1000 section-padding-top" id="fonctionalite">
+		<div class="containe">
+			<div class="d-flex">
+				<div class="left sm-none">
+					<img src="{{ asset('themes/img/2/2.png') }}" class="img-fluid" alt="">
+				</div>
+				<div class="right">
+					<h2>Plus de
+						<span class="text-primary">1000</span>
+						véhicules mis en location</h2>
+					<img src="{{ asset('themes/img/2/2.png') }}" class="img-fluid sm-block" alt="">
+					<p>{{ appName }}
+						dispose d'une interface conviviale qui permet aux utilisateurs de rechercher des voitures disponibles en fonction de l'emplacement, des dates de location et du type de véhicule.</p>
+					<p>Avec une variété de véhicules, y compris des voitures économiques, des voitures de luxe, des SUV, des fourgonnettes, et plus encore.</p>
+
+					<div class="models-vehicules">
+						<a href="#" class="btn model-vehicul-btn">SUV</a>
+						<a href="#" class="btn model-vehicul-btn">4X4</a>
+						<a href="#" class="btn model-vehicul-btn">Bus</a>
+						<a href="#" class="btn model-vehicul-btn">VAN</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End More 100 véhicules -->
+
+	<!-- Reservation section -->
+	<section class="reservation-section section-padding-top">
+		<div class="containe">
+			<div class="d-flex">
+				<div class="left">
+					<h2>Réservation facile et en
+						<span class="text-primary">un clic</span>
+					</h2>
+					<img src="{{ asset('themes/img/3/3.png') }}" class="img-fluid sm-block" alt="">
+					<p>Les utilisateurs peuvent sélectionner la voiture qu'ils souhaitent et faire une réservation, et
+						            l'application facilitera le processus de paiement.</p>
+					<p>{{ appName }}
+						vous fournit les informations sur les lieux de prise en charge et de restitution disponibles, les
+						            conditions de locations et autres détails.</p>
+					<p>Paiement par carte bancaire ou mobile money</p>
+
+					<div class="paiement">
+						<a href="#"><img src="{{ asset('themes/monnaies/credit-card-1.png') }}" alt="Carte de crédit"></a>
+						<a href="#"><img src="{{ asset('themes/monnaies/MTN-1-1.png') }}" alt="MTN"></a>
+						<a href="#"><img src="{{ asset('themes/monnaies/Orange-Money-logo-1.png') }}" alt="Orange"></a>
+					</div>
+				</div>
+				<div class="right sm-none">
+					<img src="{{ asset('themes/img/3/3.png') }}" class="" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Reservation section -->
+
+	<!-- Group section -->
+	<section class="group-section section-padding-top">
+		<div class="right">
+			<img src="{{ asset('themes/img/groupe-49.svg') }}" class="img-fluid" alt="">
+		</div>
+	</section>
+	<!-- End Group section -->
+
+	<!-- End Group section -->
+	<section class="gagner-argent-section section-padding-top">
+		<div class="containe right-118">
+			<div class="d-flex align-items-center">
+				<div class="left sm-none">
+					<img src="{{ asset('themes/img/5/5.png') }}" class="img-fluid" alt="">
+				</div>
+				<div class="right">
+					<h2>
+						<span class="text-primary">Gagner de l’argent</span>
+						en mettant votre véhicule en location</h2>
+					<img src="{{ asset('themes/img/5/5.png') }}" class="img-fluid sm-block" alt="">
+					<p>Les utilisateurs peuvent sélectionner la voiture qu'ils souhaitent et faire une réservation, et
+						            l'application facilitera le processus de paiement.</p>
+				</div>
+			</div>
+		</div>
+		<img src="{{ asset('themes/img/4/rectangle-118.png') }}" class="float-image" alt="">
+	</section>
+	<!-- End Group section -->
+
+	<!-- FAQS Section -->
+	<section class="faqs-section section-padding-top" id="faqs">
+		<div class="containe mr-118">
+			<h2>Foire aux
+				<span class="text-primary">Questions</span>
+			</h2>
+			<div class="accordion accordion-flush" id="accordionFlushExample">
+				<div class="accordion-item">
+					<h3 class="accordion-header" id="flush-headingOne">
+						<button class="accordion-button collapsed one" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+							Comment puis-je créer un compte sur DryvMe?
+						</button>
+					</h3>
+					<div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+						<div class="accordion-body">
+							<p>Pour créer un compte, téléchargez l'application DryvMe, puis sélectionnez l'option "Créer un compte". Remplissez les informations requises telles que votre nom, adresse e-mail, et numéro de téléphone. Vous recevrez ensuite un e-mail de vérification pour activer votre compte.</p>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h3 class="accordion-header" id="flush-headingTwo">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+							Comment puis-je réserver un véhicule sur DryvMe?
+						</button>
+					</h3>
+					<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+						<div class="accordion-body">
+							<p>Connectez-vous à votre compte, sélectionnez le véhicule de votre choix, indiquez les dates de prise en charge et de retour, puis suivez les instructions pour finaliser la réservation. Une confirmation vous sera envoyée par e-mail.</p>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h3 class="accordion-header" id="flush-headingThree">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+							Quelles sont les méthodes de paiement acceptées sur DryvMe?
+						</button>
+					</h3>
+					<div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+						<div class="accordion-body">
+							<p>Nous acceptons les paiements par carte bancaire et Orange Money. Assurez-vous que votre moyen de paiement est correctement configuré dans votre profil.</p>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h3 class="accordion-header" id="flush-headingFour">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+							Comment sont calculés les frais de transaction?
+						</button>
+					</h3>
+					<div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+						<div class="accordion-body">
+							<p>Pour chaque transaction, des frais de service de 5% du montant de la transaction sont facturés au propriétaire du véhicule, et 10% sont facturés au client. Ces frais couvrent les coûts de fonctionnement de la plateforme.</p>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h3 class="accordion-header" id="flush-headingFive">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+							Comment puis-je annuler ma réservation?
+						</button>
+					</h3>
+					<div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+						<div class="accordion-body">
+							<p>Vous pouvez annuler votre réservation via l'application. Les conditions d'annulation dépendent de la politique choisie par le propriétaire du véhicule (Flexible, Modérée, ou Stricte). Veuillez consulter les détails de la réservation pour connaître les conditions spécifiques.</p>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h3 class="accordion-header" id="flush-heading6">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
+							Que faire si j'ai un problème avec ma réservation ou le véhicule?
+						</button>
+					</h3>
+					<div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6" data-bs-parent="#accordionFlushExample">
+						<div class="accordion-body">
+							<p>En cas de problème, veuillez contacter immédiatement le support DryvMe via l'application ou par e-mail. Nous nous efforcerons de résoudre votre problème dans les plus brefs délais.</p>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h3 class="accordion-header" id="flush-heading7">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
+							Comment puis-je contacter le propriétaire du véhicule?
+						</button>
+					</h3>
+					<div id="flush-collapse7" class="accordion-collapse collapse" aria-labelledby="flush-heading7" data-bs-parent="#accordionFlushExample">
+						<div class="accordion-body">
+							<p>Une fois votre réservation confirmée, vous recevrez les coordonnées du propriétaire. Vous pouvez également utiliser la fonction de chat intégrée à l'application pour communiquer directement avec lui.</p>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h3 class="accordion-header" id="flush-heading8">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse8" aria-expanded="false" aria-controls="flush-collapse8">
+							Comment DryvMe assure-t-elle la sécurité des transactions?
+						</button>
+					</h3>
+					<div id="flush-collapse8" class="accordion-collapse collapse" aria-labelledby="flush-heading8" data-bs-parent="#accordionFlushExample">
+						<div class="accordion-body">
+							<p>La sécurité est notre priorité. Toutes les transactions sont cryptées et nous effectuons des contrôles réguliers pour assurer la fiabilité des propriétaires et la qualité des véhicules.</p>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h3 class="accordion-header" id="flush-heading9">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse9" aria-expanded="false" aria-controls="flush-collapse9">
+							Comment puis-je laisser un avis sur un véhicule ou un propriétaire?
+						</button>
+					</h3>
+					<div id="flush-collapse9" class="accordion-collapse collapse" aria-labelledby="flush-heading9" data-bs-parent="#accordionFlushExample">
+						<div class="accordion-body">
+							<p>Après avoir terminé votre location, vous aurez l'option de laisser un avis et une note sur le véhicule et le propriétaire. Nous encourageons des avis honnêtes pour aider les autres utilisateurs à faire des choix éclairés.</p>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h3 class="accordion-header" id="flush-heading10">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse10" aria-expanded="false" aria-controls="flush-collapse10">
+							Quels sont les critères pour qu'un véhicule soit listé sur DryvMe?
+						</button>
+					</h3>
+					<div id="flush-collapse10" class="accordion-collapse collapse" aria-labelledby="flush-heading10" data-bs-parent="#accordionFlushExample">
+						<div class="accordion-body">
+							<p>Tous les véhicules doivent passer une vérification de qualité et être approuvés par un administrateur DryvMe. Les propriétaires doivent fournir des informations complètes sur le véhicule, y compris des photos récentes, et respecter nos standards de qualité et de sécurité.
+							</p>
+							<p>
+								Si vous avez d'autres questions spécifiques ou avez besoin d'informations supplémentaires, n'hésitez pas à contacter le support DryvMe. Nous sommes là pour vous aider!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End FAQS Section -->
+
+	<!-- Parter sur la route section -->
+	<section class="parter-sur-route section-padding-top">
+		<div class="containe mr-118">
+			<div class="bloc-caption text-center">
+				<h2>Partez sur la route
+					<span class="sm-block">de l'aventure!</span>
+				</h2>
+				<p class="p-15">Téléchargez
+					{{ appName }}
+					dès maintenant et commencez
+					<br>
+					votre voyage aujourd'hui.</p>
+
+				<div class="text-center">
+					<a href="#" class="google-play left">
+						<img src="{{ asset('themes/img/google-play.svg') }}" alt="">
+					</a>
+					<a href="#" class="google-play">
+						<img src="{{ asset('themes/img/app-store.svg') }}" alt="">
+					</a>
+				</div>
+				<img src="{{ asset('themes/img/7/rectangle-107.png') }}" class="rectangle-img" alt="">
+			</div>
+			<div class="bottom-car text-end">
+				<img src="{{ asset('themes/img/6/6.png') }}" class="img-fluid" alt="">
+			</div>
+		</div>
+	</section>
+	<!-- End Parter sur la route section -->
+{% endblock %}

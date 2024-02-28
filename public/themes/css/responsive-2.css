@@ -1,0 +1,356 @@
+@media (max-width: 999px) {
+
+   /** Section custum css **/
+   .navbar .containe {
+      padding: 8px !important;
+      margin-bottom: 15px
+   }
+   .group-section {
+      margin-right: 0;
+   }
+
+   .containe {
+      margin-left: 0 !important;
+      padding: 8px !important;
+   }
+
+   .d-flex {
+      display: block !important;
+   }
+
+   /** Btn style **/
+   .login-btn {
+      width: 179px;
+      height: 48px;
+      line-height: 48px;
+      font-size: 12px;
+      font-weight: 700;
+      text-align: center;
+      padding: 0;
+      border-radius: 30px;
+      border: 1px solid var(--primary);
+   }
+
+   .contact-form .btn {
+      width: 100%;
+   }
+
+   .navbar {
+      padding-top: 0;
+   }
+
+   .navbar .navbar-brand img,
+   footer img {
+      width: 80px;
+      height: 80px;
+   }
+
+   .banner-section {
+      padding: 0px 10px 0 10px;
+   }
+
+   .section-pb {
+      padding-bottom: 30px;
+   }
+
+   .banner-section h1 {
+      font-size: 40px;
+      line-height: 53.08px;
+      margin-bottom: 10px;
+      margin-top: 0px;
+      padding: 0 15px;
+      font-weight: 800;
+   }
+
+   section,
+   .p-15 {
+      padding: 0 15px;
+   }
+
+   .gagner-argent-section p {
+      width: 100%;
+   }
+
+   .banner-section p {
+      margin-bottom: 20px;
+      padding: 0 15px;
+   }
+
+   .banner-section .google-play {
+      margin-right: 14px;
+   }
+
+   .banner-section .left {
+      width: 100%;
+      margin-left: auto;
+   }
+
+   .banner-section .right {
+      width: 100%;
+      height: 100%;
+   }
+
+   .google-play {
+      display: inline-block;
+      width: 150px;
+      height: 50px;
+      border-radius: 7px;
+      overflow: hidden;
+   }
+
+   .google-play img {
+      width: 100%;
+      height: 100%;
+   }
+
+   .model-vehicul-btn {
+      padding: 6px 20px;
+      border-radius: 30px;
+      border: 1px solid var(--primary);
+      gap: 10px;
+
+   }
+
+   .section-padding-top {
+      padding-top: 20px;
+   }
+
+   section h2 {
+      font-size: 30px !important;
+      margin-top: 30px;
+      margin-bottom: 20px !important;
+      line-height: 41.16px;
+      font-weight: 800;
+   }
+
+   section p {
+      font-size: 18px;
+      line-height: 27px;
+   }
+
+   .louer::after {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      left: -2px;
+      top: 20px;
+      border-radius: 5px;
+      z-index: -1;
+      background: var(--primary);
+      border-radius: 3px;
+      width: 100px;
+      height: 20px;
+   }
+
+   .section-more-1000 .left {
+      margin-right: 0;
+   }
+
+   .section-more-1000 .right {
+      height: 100%;
+   }
+
+   .section-more-1000 .right h2 {
+      width: 100%;
+      margin-bottom: 20px;
+   }
+
+   .section-more-1000 .right p {
+      width: 100%;
+      margin-bottom: 20px;
+   }
+
+   .section-more-1000 .models-vehicules .btn {
+      margin-right: 10px;
+   }
+
+   .reservation-section .left {
+      margin-right: 0;
+   }
+
+   .reservation-section h2 {
+      width: 100%;
+      margin-bottom: 20px;
+   }
+
+   .reservation-section p {
+      width: 100%;
+      margin-bottom: 20px;
+   }
+
+   .right-118,
+   .mr-118
+    {
+      margin-right: 0!important;
+   }
+
+   .gagner-argent-section {
+      position: relative;
+   }
+
+   .gagner-argent-section {
+      width: 100%;
+   }
+
+   .gagner-argent-section .float-image {
+      display: none;
+   }
+
+   .gagner-argent-section .left {
+      width: 100%;
+      margin-right: 0;
+   }
+
+   .gagner-argent-section .right {
+      width: 100%;
+   }
+
+   .gagner-argent-section h2 {
+      margin-bottom: 20px;
+   }
+
+   .faqs-section h2 {
+      margin-bottom: 20px;
+   }
+
+   .faqs-section .accordion-item h3 button {
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 36px;
+      padding: 20px;
+      border-top-color: var(--border);
+      /*border-bottom: 1px solid var(--border)!important;*/
+   }
+
+   .accordion-button {
+      color: var(--black) !important;
+   }
+
+   .accordion-button:not(.collapsed),
+   .accordion-collapse.collapse.show {
+      background: var(--light) !important;
+      border-left: 6px solid var(--primary) !important;
+   }
+
+   .faqs-section .accordion-item .accordion-body {
+      padding: 20px!important;
+   }
+
+   .parter-sur-route {
+      margin-bottom: 10px;
+   }
+
+   .parter-sur-route .bloc-caption {
+      height: 485px;
+      padding: 0;
+      position: relative;
+      z-index: 1;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      background: var(--heading);
+      border-radius: 40px;
+      overflow: hidden;
+      color: var(--white) !important;
+   }
+
+   .parter-sur-route .bloc-caption h2 {
+      margin-top: 30px;
+   }
+
+   .sm-block {
+      display: block;
+   }
+
+   .parter-sur-route .bloc-caption p {
+      margin-top: 39px;
+      line-height: 36px;
+      font-weight: 500;
+      margin-bottom: 58px;
+      font-size: 24px;
+   }
+
+   h2 {
+      font-size: 35px !important;
+      line-height: 19px;
+   }
+
+   .parter-sur-route .left {
+      margin-right: 6px;
+   }
+
+   .parter-sur-route .bloc-caption .rectangle-img {
+      width: 80px;
+      height: 80px;
+      rotate: -15deg;
+      border-radius: 20px;
+      left: -35px;
+      position: absolute;
+      bottom: -35px;
+   }
+
+   .bottom-car {
+      top: -80px;
+      height: 30px;
+   }
+
+   .bottom-car img {
+      width: 50%;
+      height: auto;
+   }
+
+   footer {
+      text-align: center;
+   }
+
+   footer a {
+      text-align: center;
+   }
+
+   footer .nav .nav-item .nav-link {
+      padding: 2px 0;
+   }
+
+   footer .nav {
+      margin-bottom: 30px !important;
+   }
+
+   footer h3 {
+      text-align: center;
+      font-size: 20px;
+      line-height: 27px;
+      font-weight: 700;
+      margin-bottom: 24px;
+   }
+
+   footer .copyright {
+      padding: 20px 0;
+      margin-top: 0px;
+   }
+
+   footer .reseau-sociaux {
+      display: inline-block;
+      margin-top: 48px;
+      margin-bottom: 48px;
+      padding: 0;
+   }
+
+   footer .reseau-sociaux li,
+   footer .reseau-sociaux li a {
+      display: inline-block;
+      padding: 0;
+      margin: 0;
+   }
+
+   footer .reseau-sociaux li a {
+      margin-right: 20px !important;
+   }
+
+   .sm-none {
+      display: none;
+   }
+
+   .sm-block {
+      display: block;
+   }
+}
